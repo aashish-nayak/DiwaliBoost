@@ -46,15 +46,44 @@ Introductory packages: ₹499 / 6 products / 2 working days; ₹999 / 12 product
 
 ## Deployment and SEO
 
-Build command: `npm run build`. Publish directory: `dist`. Use Cloudflare Pages or Vercel; `vercel.json` and `public/_headers` supply basic security headers. No catch-all SPA rewrite is needed: both routes have their own HTML and unknown paths should use `404.html`.
+Build command: `npm run build`. Publish directory: `dist`. Use Vercel or Cloudflare Pages; `vercel.json` and `public/_headers` supply framework configuration, clean URLs and basic security headers. No catch-all SPA rewrite is needed: both routes have their own HTML and unknown paths should use `404.html`.
 
-Set `SITE_URL` to the final origin (for example your assigned HTTPS provider domain), then rebuild. Without it, the build is deliberately `noindex` and omits canonical/absolute social-image URLs rather than inventing a domain. With it, the portfolio receives its canonical URL, Open Graph image and sitemap entry. The fictional demo always remains `noindex,follow` and outside the sitemap. Social image: `public/images/social-preview.jpg`. No fabricated LocalBusiness structured data is emitted.
+### Vercel Deployment (Git Integration)
 
-To check metadata with a temporary origin locally in PowerShell: `$env:SITE_URL='https://example.com'; npm run build; Remove-Item Env:SITE_URL`. Do not publish that example origin; build again with the real origin.
+1. **Push your code to GitHub**:
+   Ensure all changes are pushed to your remote repository:
+   ```bash
+   git push origin main
+   ```
+2. **Import Project into Vercel**:
+   - Go to [vercel.com/new](https://vercel.com/new).
+   - Authorize GitHub and select the `DiwaliBoost` repository.
+   - **Framework Preset**: Vite (detected automatically).
+   - **Root Directory**: `./`.
+   - **Build Command**: `npm run build` (detected from `vercel.json`).
+   - **Output Directory**: `dist` (detected from `vercel.json`).
+3. **Configure Environment Variables**:
+   Under **Environment Variables**, add:
+   - **Name**: `SITE_URL`
+   - **Value**: `https://your-domain.vercel.app` (or your custom production domain, e.g. `https://diwaliboost.in`).
+   > **Note**: Without `SITE_URL`, the build deliberately sets `noindex` and omits canonical/social URLs. Adding `SITE_URL` enables canonical URLs, indexable robot directives, Open Graph cards, and `sitemap.xml`.
+4. **Deploy**:
+   - Click **Deploy**.
+   - Subsequent pushes to `main` will automatically build and deploy new production releases, while pull requests receive preview deployments.
 
-No hosting account or domain has been configured by this implementation. Deployment requires an authenticated host and the final origin. Verify each real customer's content, phone number, prices, page metadata and photo rights before launch.
+### Vercel CLI Deployment (Alternative)
 
-The current handover is local-only, as requested. See `VERIFICATION.md` for checks and measured results.
+If deploying directly from the terminal:
+- Preview deployment: `npm run deploy`
+- Production deployment: `npm run deploy:prod`
+
+To test metadata with a temporary origin locally in PowerShell:
+```powershell
+$env:SITE_URL='https://example.com'; npm run build; Remove-Item Env:SITE_URL
+```
+Do not publish that example origin; build again with the real origin.
+
+No hosting account or domain has been configured by default. Deployment requires an authenticated host and the final origin. Verify each real customer's content, phone number, prices, page metadata and photo rights before launch. See `VERIFICATION.md` for checks and measured results.
 
 ## Theme and visual customisation
 
