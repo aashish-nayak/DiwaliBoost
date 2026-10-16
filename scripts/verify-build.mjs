@@ -23,6 +23,10 @@ const llmsTxt = await readFile('dist/llms.txt', 'utf8');
 assert.ok(llmsTxt.includes('DiwaliBoost'));
 const llmsFullTxt = await readFile('dist/llms-full.txt', 'utf8');
 assert.ok(llmsFullTxt.includes('DiwaliBoost'));
+assert.ok(portfolio.includes('https://www.googletagmanager.com/gtag/js?id=G-Z3SD9K9BH1'));
+assert.ok(portfolio.includes("gtag('config', 'G-Z3SD9K9BH1');"));
+assert.ok(demo.includes('https://www.googletagmanager.com/gtag/js?id=G-Z3SD9K9BH1'));
+assert.ok(demo.includes("gtag('config', 'G-Z3SD9K9BH1');"));
 if (origin) {
   assert.ok(portfolio.includes(`rel="canonical" href="${origin}/"`));
   assert.ok(demo.includes(`rel="canonical" href="${origin}/demo/sweet-shop/"`));

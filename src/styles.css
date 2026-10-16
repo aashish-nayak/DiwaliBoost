@@ -183,18 +183,28 @@ h3 {
   display: flex;
   padding: 3px;
   border: 1px solid var(--line);
-  border-radius: 30px;
+  border-radius: 9999px;
   background: var(--white);
+  flex-shrink: 0;
 }
 .theme-controls button {
+  position: relative;
   display: grid;
   place-items: center;
   width: 38px;
+  height: 38px;
   min-height: 38px;
+  aspect-ratio: 1;
   border: 0;
   border-radius: 50%;
   background: transparent;
   color: var(--muted);
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    box-shadow 0.15s ease;
 }
 .theme-controls button[aria-pressed="true"] {
   color: var(--button-text);
@@ -202,6 +212,10 @@ h3 {
 }
 .theme-controls button:hover {
   box-shadow: inset 0 0 0 1px var(--maroon);
+}
+.theme-controls button:focus-visible {
+  outline: 2px solid var(--maroon);
+  outline-offset: 2px;
 }
 .button {
   display: inline-flex;
@@ -1198,8 +1212,22 @@ textarea {
     padding: 2px;
   }
   .theme-controls button {
-    width: 34px;
-    min-height: 40px;
+    width: 32px;
+    height: 32px;
+    min-height: 32px;
+    aspect-ratio: 1;
+  }
+  .theme-controls button::after {
+    content: "";
+    position: absolute;
+    top: -6px;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+  }
+  .theme-controls button svg {
+    width: 16px;
+    height: 16px;
   }
   .hero {
     grid-template-columns: 1fr;
@@ -1520,7 +1548,18 @@ textarea {
     width: 23px;
   }
   .theme-controls button {
-    width: 32px;
+    width: 28px;
+    height: 28px;
+    min-height: 28px;
+    aspect-ratio: 1;
+  }
+  .theme-controls button::after {
+    top: -8px;
+    bottom: -8px;
+  }
+  .theme-controls button svg {
+    width: 14px;
+    height: 14px;
   }
   .hero {
     padding: 24px 20px;
