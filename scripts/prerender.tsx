@@ -79,7 +79,7 @@ function getSchemas(
         logo: url ? `${origin}/favicon.svg` : "/favicon.svg",
         description:
           "Productised web design service for Indian small businesses, sweet shops, and bakeries promoting festive Diwali offers via WhatsApp.",
-        telephone: "+91-7062182162",
+        telephone: "+91-6376566753",
         priceRange: "₹499 - ₹1999",
         address: {
           "@type": "PostalAddress",
@@ -94,7 +94,7 @@ function getSchemas(
         ],
         contactPoint: {
           "@type": "ContactPoint",
-          telephone: "+91-7062182162",
+          telephone: "+91-6376566753",
           contactType: "sales",
           availableLanguage: ["en", "hi"],
         },
@@ -227,7 +227,7 @@ function getSchemas(
         alternateName: "गुलाब मिठाई",
         description:
           "Fictional sweet-shop concept by DiwaliBoost showcasing sample mithai, gift boxes and WhatsApp enquiries. Sample demo only.",
-        telephone: "+91-7062182162",
+        telephone: "+91-6376566753",
         openingHours: "Mo-Su 09:00-21:00",
         address: {
           "@type": "PostalAddress",

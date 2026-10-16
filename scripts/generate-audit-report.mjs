@@ -652,7 +652,7 @@ const mainBodyChildren = [
       new TableRow({
         children: [
           createCell('E-E-A-T & Entity Clarity', { bold: true, width: 2400 }),
-          createCell('Clearly states Jaipur, Rajasthan location and phone +91 7062182162. Needs Organization schema entity.', { width: 5160 }),
+          createCell('Clearly states Jaipur, Rajasthan location and phone +91 6376566753. Needs Organization schema entity.', { width: 5160 }),
           createBadgeCell('Needs Attention', 'Needs Attention', 1800),
         ],
       }),
@@ -1171,7 +1171,7 @@ async function run() {
     </tr>
     <tr>
       <td><strong>E-E-A-T &amp; Entity Clarity</strong></td>
-      <td>Clearly states Jaipur, Rajasthan location and phone +91 7062182162. Needs Organization schema entity.</td>
+      <td>Clearly states Jaipur, Rajasthan location and phone +91 6376566753. Needs Organization schema entity.</td>
       <td><span class="badge amber">Needs Attention</span></td>
     </tr>
     <tr>

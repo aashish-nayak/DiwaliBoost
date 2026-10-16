@@ -28,7 +28,7 @@ Native links provide routing between the two pages. React hydrates prerendered H
 
 ## Business configuration
 
-The owner-provided enquiry number is +91 7062182162. `service.phone` supplies the portfolio and fictional demo recipient. Every demo product message explicitly says it is not a food order.
+The owner-provided enquiry number is +91 6376566753. `service.phone` supplies the portfolio and fictional demo recipient. Every demo product message explicitly says it is not a food order.
 
 To create a real customer page, copy the `Business` config, supply customer-approved text, products, photos and phone number, set `demo: false`, and register its route in `src/App.tsx` and `scripts/prerender.tsx`. Brand colour and background are configurable; logo and address are optional. Check contrast after changing colours. Replace the sample Hindi content as appropriate. The current template supports English and Hindi text, not automatic translation.
 

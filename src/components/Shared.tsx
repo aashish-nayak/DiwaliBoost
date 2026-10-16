@@ -48,7 +48,7 @@ export function Footer() {
       </div>
       <div>
         <p>Made for Jaipur. Available across India.</p>
-        <a href="tel:+917062182162">+91 70621 82162</a>
+        <a href="tel:+916376566753">+91 63765 66753</a>
       </div>
       <p className="footer-note">
         © {new Date().getFullYear()} DiwaliBoost

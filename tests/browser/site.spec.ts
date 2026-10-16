@@ -19,7 +19,7 @@ test("portfolio enquiry prepares a reviewable WhatsApp message and clears stale 
     .getByRole("link", { name: "Review & send in WhatsApp" })
     .getAttribute("href");
   const url = new URL(href!);
-  expect(url.pathname).toBe("/917062182162");
+  expect(url.pathname).toBe("/916376566753");
   expect(url.searchParams.get("text")).toContain("Test मिठाई & bakery");
   await page.getByLabel("Your name", { exact: true }).fill("Changed");
   await expect(
@@ -96,7 +96,7 @@ test("content is available without JavaScript and demo is noindex", async ({
   );
   await expect(
     page.getByRole("link", { name: "Try sample enquiry" }).first(),
-  ).toHaveAttribute("href", /wa.me\/917062182162/);
+  ).toHaveAttribute("href", /wa.me\/916376566753/);
   await context.close();
 });
 

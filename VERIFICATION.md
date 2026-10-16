@@ -26,7 +26,7 @@ These are local, simulated mobile lab results from Lighthouse 12.8.2, not real-u
 
 - No deployment, domain purchase, payment collection or external messages were performed.
 - WhatsApp URLs and decoded messages were tested; actual message delivery was not performed.
-- All enquiry links use the owner-provided +91 7062182162 number. Demo messages identify themselves as non-order enquiries.
+- All enquiry links use the owner-provided +91 6376566753 number. Demo messages identify themselves as non-order enquiries.
 - The fictional business has no invented street address, customer testimonials or sales claims.
 - Forms prepare a message in the browser; the visitor opens WhatsApp and sends it manually. No form backend or database exists.
 - Public launch remains a separate step: authenticate the host, set the final SITE_URL, rebuild, deploy and verify the live URLs/social previews.

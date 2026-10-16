@@ -6,7 +6,7 @@ DiwaliBoost is an independent web design service based in Jaipur, Rajasthan, Ind
 - **Brand**: DiwaliBoost
 - **Entity Type**: ProfessionalService / Web Design Agency
 - **Headquarters**: Jaipur, Rajasthan, India
-- **Contact Number / WhatsApp**: +91 7062182162
+- **Contact Number / WhatsApp**: +91 6376566753
 - **Website URL**: https://diwaliboost.in (or configured production domain)
 - **Supported Languages**: English, Hindi (हिंदी)
 - **Primary Festive Campaign**: Diwali / Festive Season

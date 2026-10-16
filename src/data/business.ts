@@ -33,7 +33,7 @@ export type Business = {
 
 export const service = {
   name: "DiwaliBoost",
-  phone: "+91 7062182162",
+  phone: "+91 6376566753",
   location: "Jaipur, Rajasthan",
 };
 

@@ -11,12 +11,12 @@ import { sweetShop } from "../src/data/business";
 
 test("normalizes local and international Indian mobile formats", () => {
   for (const input of [
-    "7062182162",
-    "+91 70621 82162",
-    "917062182162",
-    "+91 (70621) 82162",
+    "6376566753",
+    "+91 63765 66753",
+    "916376566753",
+    "+91 (63765) 66753",
   ])
-    assert.equal(normalizeIndianPhone(input), "917062182162");
+    assert.equal(normalizeIndianPhone(input), "916376566753");
 });
 test("rejects malformed, short, overseas, landline and injected phone numbers", () => {
   for (const input of [
@@ -24,24 +24,24 @@ test("rejects malformed, short, overseas, landline and injected phone numbers", 
     "1234",
     "5062182162",
     "+1 202 555 0123",
-    "7062182162?text=bad",
-    "91+91+7062182162",
-    "706+2182162",
-    "07062182162",
+    "6376566753?text=bad",
+    "91+91+6376566753",
+    "637+6566753",
+    "06376566753",
     "abcdef",
   ])
     assert.throws(() => normalizeIndianPhone(input));
 });
 test("encodes Hindi, ampersands, newlines and currency as one message", () => {
   const message = "नमस्ते! Kaju & Pista\n₹549 / 500 g? #gift + delivery";
-  const url = new URL(whatsappUrl("7062182162", message));
+  const url = new URL(whatsappUrl("6376566753", message));
   assert.equal(url.origin, "https://wa.me");
-  assert.equal(url.pathname, "/917062182162");
+  assert.equal(url.pathname, "/916376566753");
   assert.equal(url.searchParams.get("text"), message);
   assert.equal([...url.searchParams].length, 1);
 });
 test("requires a non-empty enquiry", () =>
-  assert.throws(() => whatsappUrl("7062182162", "  ")));
+  assert.throws(() => whatsappUrl("6376566753", "  ")));
 test("every demo product supplies its name, pack, effective price and demo disclaimer", () => {
   for (const product of sweetShop.products) {
     const message = productMessage(sweetShop, product);

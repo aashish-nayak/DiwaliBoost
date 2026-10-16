@@ -12,7 +12,7 @@ Indian small business owners, initially Jaipur sweet shops and bakeries, promoti
 A productised web design service with a sales portfolio and reusable customer landing pages. The immediate objective is the first three paid orders.
 
 ## Operating Context
-Manual payments, content collection, revisions and delivery. Enquiry pages hand off to WhatsApp. The owner supplied +91 7062182162. Local-only delivery is currently requested.
+Manual payments, content collection, revisions and delivery. Enquiry pages hand off to WhatsApp. The owner supplied +91 6376566753. Local-only delivery is currently requested.
 
 ## Capabilities and Constraints
 React, Vite, TypeScript, Tailwind; static prerendering and configuration-driven products. No cart, checkout, accounts, backend or database. Preserve packages, revision limits, sample labels, SEO metadata and correctly encoded enquiries. Support Hindi and English, responsive layouts and keyboard access.
