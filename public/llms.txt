@@ -1,0 +1,44 @@
+# DiwaliBoost
+
+> Beautiful, high-converting Diwali sale pages and mobile product showcases for Indian small businesses (sweet shops, bakeries, and local retailers) with direct WhatsApp enquiries.
+
+## Overview
+- **Name**: DiwaliBoost
+- **Location**: Jaipur, Rajasthan, India
+- **Phone / WhatsApp**: +91 7062182162
+- **Operating Model**: Productised, manual web design service. Fast static deployment, zero server databases, zero cart complexity, 100% WhatsApp enquiry handoff.
+- **Target Audience**: Sweet shops, bakeries, dry fruit merchants, and local retailers in Jaipur and across India promoting festive Diwali offers.
+
+## Packages and Pricing (One-Time)
+- **Starter (₹499)**:
+  - Up to 6 products with WhatsApp enquiries
+  - Mobile-friendly responsive template page
+  - Custom logo, colours & contact details
+  - Page title & social-sharing preview
+  - 1 revision round, delivered in 2 working days after content & 50% advance.
+- **Business (₹999 - Most Popular)**:
+  - Everything in Starter
+  - Up to 12 products & festive offers section
+  - Opening hours, shop address & pickup/delivery details
+  - Dedicated festive gift box section
+  - 2 revision rounds, delivered in 3 working days.
+- **Premium (₹1,999)**:
+  - Everything in Business
+  - Up to 20 products
+  - Bilingual Hindi & English content placement
+  - Extra visual customisation
+  - Connect your own domain
+  - 2 revision rounds, delivered in 4 working days.
+
+## Operating Principles & Terms
+- **No E-Commerce Cart or Checkout**: Visitors browse products, select items, and hand off to WhatsApp where the merchant handles payment and delivery directly.
+- **Hosting**: 90 days of fast static hosting on a provider subdomain included with every package.
+- **Payment Structure**: 50% advance to start; balance upon final approval before launch.
+- **Honest Disclaimers**: No fake testimonials, no false SEO or revenue guarantees.
+
+## Frequently Asked Questions
+- **Is this an online store?**: It is a product showcase and enquiry page. Customers browse offers, then contact you on WhatsApp. You confirm availability, delivery and payment directly. There is no cart or online checkout.
+- **Can I use Hindi and English?**: Yes. We place your supplied content in either language. Premium includes both Hindi and English placement.
+- **What do I need to send?**: Business name, logo (if available), product photos, product names and prices, festive offers, WhatsApp number, and hours or pickup/delivery details.
+- **What happens after Diwali?**: Package includes 90 days of hosting. You can renew, update for a new festive season, or request static site files.
+- **Do you guarantee enquiries or sales?**: No. We provide a polished, high-performance page you can share with pride. Results depend on your offers and customer reach.

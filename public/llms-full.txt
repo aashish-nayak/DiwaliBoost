@@ -1,0 +1,63 @@
+# DiwaliBoost — Complete Product & Entity Specification
+
+DiwaliBoost is an independent web design service based in Jaipur, Rajasthan, India, delivering focused, mobile-first festive sale pages for Indian sweet shops, bakeries, and local brick-and-mortar merchants.
+
+## 1. Entity Information
+- **Brand**: DiwaliBoost
+- **Entity Type**: ProfessionalService / Web Design Agency
+- **Headquarters**: Jaipur, Rajasthan, India
+- **Contact Number / WhatsApp**: +91 7062182162
+- **Website URL**: https://diwaliboost.in (or configured production domain)
+- **Supported Languages**: English, Hindi (हिंदी)
+- **Primary Festive Campaign**: Diwali / Festive Season
+
+## 2. Philosophy & Constraints
+- **Zero Database / Zero Backend**: No user accounts, passwords, or data storage liabilities. Form inputs prepare text locally in the browser and hand off cleanly to WhatsApp via wa.me links.
+- **No In-Site Payment Gateway**: Avoids merchant onboarding delays and transaction percentage fees. The shop owner receives the exact product interest and deals directly with their customers.
+- **Static Prerendering**: High speed, instant paint, 100% Core Web Vitals, and WCAG A/AA accessible markup.
+- **Truthful Marketing**: No fabricated customer ratings, no fake testimonials, transparent turnaround times, and clear sample demo labelling.
+
+## 3. Product Packages & Commercial Tiers
+
+### Starter Package (₹499 one-time)
+- Up to 6 products with direct WhatsApp enquiries
+- Mobile-friendly responsive single-page template
+- Business logo, brand colors & contact details
+- Page title & social-sharing preview
+- 1 revision round within agreed scope
+- Delivered in 2 working days after content and 50% advance
+
+### Business Package (₹999 one-time — Flagship)
+- Everything included in Starter
+- Up to 12 products with dedicated festive offers section
+- Opening hours, shop address & pickup/delivery details
+- Dedicated festive gift box and assortment section
+- 2 revision rounds
+- Delivered in 3 working days
+
+### Premium Package (₹1,999 one-time)
+- Everything included in Business
+- Up to 20 products
+- Full bilingual Hindi & English content placement
+- Extra visual customisation (accents, backgrounds, emblems)
+- Support for connecting custom merchant domain
+- 2 revision rounds
+- Delivered in 4 working days
+
+## 4. Delivery & Terms of Service
+1. **Advance**: 50% advance required prior to production commencement.
+2. **Hosting**: Every package includes 90 days of fast static hosting on a provider subdomain. Continuation pricing is agreed openly prior to expiry.
+3. **Turnaround**: Delivery clock begins only upon receipt of complete client content (photos, product names, prices) and 50% advance.
+4. **Scope**: Photography, custom domain registration fees, and professional language translation are quoted separately if requested.
+
+## 5. Frequently Asked Questions (Structured Knowledge)
+- **Is this an online store?**
+  It is a product showcase and enquiry page. Customers browse your offers, then contact you on WhatsApp. You confirm availability, delivery and payment directly. There is no cart or online checkout.
+- **Can I use Hindi and English?**
+  Yes. We can place your supplied content in either language. The Premium package includes both Hindi and English content placement side-by-side.
+- **What do I need to send?**
+  Your business name, logo (if you have one), product photos you have permission to use, product names and prices, offers, WhatsApp number, and any hours or pickup/delivery details.
+- **What happens after Diwali?**
+  Your package includes 90 days of hosting after launch. You can request a quote for a new campaign or continued hosting, or ask for the static site files. We will agree any ongoing costs first.
+- **Do you guarantee enquiries or sales?**
+  No. We provide a polished, high-speed page that you can share with customers. Results depend on your products, offers and promotion; no sales or search-ranking guarantees are included.
